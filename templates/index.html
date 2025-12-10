@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mini Bank</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Selamat datang di Mini Bank</h1>
+    <p><a href="{{ url_for('register') }}">Daftar</a> | <a href="{{ url_for('login') }}">Login</a></p>
+  </div>
+</body>
+</html>
